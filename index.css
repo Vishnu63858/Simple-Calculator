@@ -1,0 +1,172 @@
+.head{
+    margin: 10px;
+} 
+.head input{
+         height: 40px;
+    width: 60%;
+    margin: 5px;
+    background-color: rgb(167, 241, 19);
+    border: 3px solid rgb(1, 128, 22);
+    font-size: larger;
+    text-align: end;
+    color: #000000;
+}
+.display span button{
+    height: 30px;
+    width: 30px;
+    margin: 5px;
+    background-color: red;
+}
+.mainbox{
+  border: 10px solid black;
+    max-width: 25%;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.53);
+    height: fit-content;
+    margin: auto;
+    box-shadow: 5px 5px 5px 10px;
+    padding: 24px 0;
+
+}
+.firstline{
+    display: flex;
+    gap:20px;
+    width: 100%;
+    justify-content: center;
+    height: 50px;
+    align-items: center;
+    flex-direction: row;
+    margin: 2px;
+}
+.firstline button{
+    height: 50px;
+    width: 50px;
+    margin: 5px;
+    background-color: rgb(255, 196, 0);
+    border: 2px solid red;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: medium;
+    font-weight: bolder;
+}
+.secondline{
+        display: flex;
+    gap:20px;
+    width: 100%;
+    justify-content: center;
+    height: 50px;
+    align-items: center;
+    flex-direction: row;
+    margin: 2px;
+}
+.secondline button{
+    height: 50px;
+    width: 50px;
+    margin: 5px;
+    background-color: rgb(255, 196, 0);
+    border: 2px solid red;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: medium;
+    font-weight: bolder;
+}
+.thirdline{
+        display: flex;
+    gap:20px;
+    width: 100%;
+    justify-content: center;
+    height: 50px;
+    align-items: center;
+    flex-direction: row;
+    margin: 2px;
+}
+.thirdline button{
+    height: 50px;
+    width: 50px;
+    margin: 5px;
+    background-color: rgb(255, 196, 0);
+    border: 2px solid red;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: medium;
+    font-weight: bolder;
+}
+.fourthline{
+        display: flex;
+    gap:20px;
+    width: 100%;
+    justify-content: center;
+    height: 50px;
+    align-items: center;
+    flex-direction: row;
+    margin: 2px;
+}
+.fourthline button{
+    height: 50px;
+    width: 50px;
+    margin: 5px;
+}
+.fifthline{
+        display: flex;
+    gap:20px;
+    width: 100%;
+    justify-content: center;
+    height: 50px;
+    align-items: center;
+    flex-direction: row;
+    margin: 2px;
+}
+.fifthline button{
+    height: 50px;
+    width: 50px;
+    margin: 5px;
+    
+}
+.sixthline{
+        display: flex;
+    gap:20px;
+    width: 100%;
+    justify-content: center;
+    height: 50px;
+    align-items: center;
+    flex-direction: row;
+    margin: 2px;
+}
+.zero{
+    background-color: rgb(255, 196, 0);
+    border: 2px solid red;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: medium;
+    font-weight: bolder;
+}
+.equal{
+    background-color: rgb(0, 255, 21);
+    border: 2px solid red;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: medium;
+    font-weight: bolder;
+}
+.operator{
+    height: 50px;
+    width: 50px;
+    margin: 5px;
+    background-color: rgb(27, 208, 208);
+    border: 2px solid red;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: medium;
+    font-weight: bolder;
+}
+.backspace{
+    background-color: rgb(196, 42, 42);
+    border: 2px solid red;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: medium;
+    font-weight: bolder;
+}
+.clear{
+    height: 50px;
+    width: 50px;
+    margin: 5px;
+    background-color: rgb(255, 0, 0);
+    border: 2px solid red;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: medium;
+    font-weight: bolder;
+}

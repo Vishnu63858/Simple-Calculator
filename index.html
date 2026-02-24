@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="mainbox">
+      PK
+        <div class="head">
+            <input type="text" id="display" disabled>
+            <span><button class="backspace"onclick="deletelast()">⌫</button></span>
+        </div>
+        <div class="inputs1">
+            <div class="firstline">
+            <button onclick="appendvalue('1')">1</button>
+            <button onclick="appendvalue('2')">2</button>
+            <button onclick="appendvalue('3')">3</button>
+            </div>
+            <div class="secondline">
+            <button onclick="appendvalue('4')">4</button>
+            <button onclick="appendvalue('5')">5</button>
+            <button onclick="appendvalue('6')">6</button>
+           
+            </div>
+            <div class="thirdline">
+            <button onclick="appendvalue('7')">7</button>
+            <button onclick="appendvalue('8')">8</button>
+            <button onclick="appendvalue('9')">9</button>
+           
+            </div>  
+            </div>
+            <div class="fourthline">
+            <button class="zero" onclick="appendvalue('0')">0</button>
+            <button class="operator" onclick="appendvalue('-')">-</button>
+            <button class="operator" onclick="appendvalue('+')">+</button>
+           
+            </div>
+            <div class="fifthline">
+            <button class="zero" onclick="appendvalue('.')">.</button>
+            <button class="operator" onclick="appendvalue('*')">x</button>
+            <button class="equal" onclick="calculate()">=</button>
+            </div> 
+            <div class="sixthline">
+            <button class="operator" onclick="appendvalue('%')">%</button>
+            <button class="operator" onclick="appendvalue('/')">÷</button>
+            <button class="clear" onclick="cleardisplay()">AC</button>
+            </div>  
+        </div>
+    
+
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
